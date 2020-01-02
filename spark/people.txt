@@ -1,0 +1,8 @@
+name,age,gender,salary,deptId
+Michael,29,male,3120,1
+Andy,30,female,12903,2
+Justin,19,female,1320,3
+Regan,37,male,320,1
+Pop,31,male,999,1
+Killy,12,female,888,3
+Fakker,29,male,19999,2

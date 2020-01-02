@@ -108,6 +108,7 @@ print(rdd.mapPartitions(f).collect()) # [10, 35]
 # take(n)
 # takeSample(withReplacement, num, [seed])
 rdd = sc.parallelize(range(10), 2)
+print('num of partitions,', rdd.getNumPartitions())
 sample_rdd = rdd.takeSample(False, 5)
 print(sample_rdd)
 
@@ -119,3 +120,5 @@ print(sample_rdd)
 
 
 # shuffle
+
+# Persistence

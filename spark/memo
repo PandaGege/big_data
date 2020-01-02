@@ -4,4 +4,3 @@ pyspark --master spark://cluster.master:7077 --name HelloWorld
 # 添加依赖
 ./bin/pyspark --master local[4] --py-files code.py
 
-
